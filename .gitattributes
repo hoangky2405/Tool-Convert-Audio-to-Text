@@ -61,3 +61,5 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 MLModels/ggml-base.bin filter=lfs diff=lfs merge=lfs -text
 MLModels/*.bin filter=lfs diff=lfs merge=lfs -text
+ffmpeg/bin/*.dll filter=lfs diff=lfs merge=lfs -text
+ffmpeg/bin/*.exe filter=lfs diff=lfs merge=lfs -text
